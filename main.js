@@ -1,23 +1,34 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import { setupCounter } from './counter.js'
+const header = document.createElement('header');
+header.id = 'head';
+const headerContent = document.createTextNode("Psychopharmacology -- Medication Management: When Talk Therapy Alone is Not Enough");
+header.appendChild(headerContent);
+document.body.appendChild(header);
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+const nav = document.createElement('nav');
+const navContent = document.createTextNode("YOUR PEACE OF MIND IS OUR BUSINESS");
+nav.appendChild(navContent);
+document.body.appendChild(nav);
 
-setupCounter(document.querySelector('#counter'))
+const firstSection = document.createElement('section');
+const listSection = document.createElement('ul');
+const firstElementList = document.createTextNode(" Telehealth ervices in California *SE HABLA ESPAÑOL*");
+const secondSectionContent = document.createTextNode(" Dr Ana Popoca - Logue");
+const thirdSectionContent = document.createTextNode(" DNP Doctor of Nursing Practice,     Family & Psychiatric Mental Health Nurse Practitioner");
+firstSection.appendChild(listSection);
+firstSection.appendChild(secondSectionContent);
+document.body.appendChild(firstSection);
+
+const article = document.createElement('article');
+const articleContent = document.createTextNode("more");
+article.appendChild(articleContent);
+document.body.appendChild(article);
+
+const aside = document.createElement('aside');
+const asideContent = document.createTextNode("article");
+aside.appendChild(asideContent);
+document.body.appendChild(aside);
+
+const footer = document.createElement('footer');
+const footerContent = document.createTextNode("information");
+footer.appendChild(footerContent);
+document.body.appendChild(footer);
