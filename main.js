@@ -1,6 +1,6 @@
 const header = document.createElement('header');
 header.id = 'head';
-const headerContent = document.createTextNode("Psychopharmacology -- Medication Management: When Talk Therapy Alone is Not Enough");
+const headerContent = document.createTextNode("");
 header.appendChild(headerContent);
 document.body.appendChild(header);
 
