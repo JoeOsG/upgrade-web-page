@@ -3,9 +3,9 @@
 }
 
 #header {
-  /* position: fixed;
+  position: fixed;
   top: 0;
-  left: 0;
+  /*left: 0;
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #ccc;
